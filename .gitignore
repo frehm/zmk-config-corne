@@ -1,0 +1,7 @@
+# .NET build artifacts
+tools/*/bin/
+tools/*/obj/
+
+# Generated keymap visualizer images
+docs/
+images/
