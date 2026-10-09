@@ -9,7 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include "keys_sv.h"
 
-#if defined(CONFIG_SHIELD_CORNE_LEFT)
+// Set only by the corne_left build's DTS_EXTRA_CPPFLAGS in build.yaml.
+// Kconfig CONFIG_* symbols are not available during devicetree preprocessing.
+#if defined(CORNE_LEFT_TOP_ROW_P104)
 // Left-half repair: wire the PCB's top row to P1.04 (Pro Micro 8),
 // leaving the damaged controller pin P0.22 disconnected from the PCB.
 &kscan0 {

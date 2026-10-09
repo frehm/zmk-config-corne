@@ -28,6 +28,7 @@ include:
     shield: handwired_corne_right
   - board: nice_nano_v2
     shield: corne_left
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DCORNE_LEFT_TOP_ROW_P104
   - board: nice_nano_v2
     shield: corne_right
   - board: nice_nano_v2
