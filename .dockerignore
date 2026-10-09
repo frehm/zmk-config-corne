@@ -1,0 +1,6 @@
+**
+!config/
+!config/west.yml
+!tools/
+!tools/docker-build.py
+!Dockerfile

@@ -5,3 +5,6 @@ tools/*/obj/
 # Generated keymap visualizer images
 docs/
 images/
+
+# Local Docker firmware builds
+firmware/
